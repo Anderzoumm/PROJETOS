@@ -1,0 +1,57 @@
+<!-- Desenvolva uma página com um formulário
+de cadastro (o tema fica à sua escolha) que
+contenha todos os elementos de formulário
+apresentados (radio, select, checkbox, text,
+date, email, textarea, submit). Utilize os
+atributos:
+method=”get” action=”teste.jsp” -->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+<h2>Bem vindo ao site que voce vai adiquirir sua nova motocicleta</h2>
+<h3>Conte-nos mais sobre voce!!</h3>
+<form method="post" actions="test.jsp">
+    Digite seu nome:<input type="text" name="nome">
+    <br> <br>
+    Digite seu email:<input type="email" name="email">
+    <br> <br>
+    Digite sua data de nascimento:<input type="date" name="data">
+    <br> <br>
+    Digite sua cidade:<input type="text" name="cidade">
+    <br> <br>
+    Nos conte sua experiencia com motos:<br> <textarea name="experiencia" cols="30" rows="10"></textarea>
+    <br> 
+    <h3>Nos conte agora sobre a moto que voce deseja adquirir</h3>
+    Marca: <select name="Marca" id="">
+        <option value="Honda">Honda</option>
+        <option value="Yamaha">Yamaha</option>
+        <option value="Suzuki">Suzuki</option>
+        <option value="Kawasaki">Kawasaki</option>
+        <option value="BMW">BMW</option>
+
+    </select>
+    <br>
+    Cilindrada: <input type="radio" name="cc" value="125" checked> 125
+                <input type="radio" name="cc" value="125"> 150
+                <input type="radio" name="cc" value="190"> 190
+                <input type="radio" name="cc" value="250"> 250
+                <input type="radio" name="cc" value="300"> 300
+    <br>
+    Quais acessorios deseja adiquirir? <br><input type="checkbox" name="acessorios" value="sim"> Capacete
+    <input type="checkbox" name="acessorios" value="sim"> Luvas
+    <input type="checkbox" name="acessorios" value="sim"> Jaqueta
+    <input type="checkbox" name="acessorios" value="sim"> Botas
+    <br>
+    <input type="submit">
+
+
+
+</form>
+    
+</body>
+</html></html>
