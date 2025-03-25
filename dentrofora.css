@@ -1,0 +1,15 @@
+.cat {
+
+background: url(fechado.png) no-repeat;
+height: 500px;
+width:500px;
+display: block;
+background-size: contain;
+}
+.cat:hover {
+background: url(aberto.png) no-repeat;
+height: 500px;
+width:500px;
+display: block;
+background-size: contain;
+}

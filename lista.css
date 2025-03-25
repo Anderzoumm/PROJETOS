@@ -1,0 +1,17 @@
+.lista{
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.lista li:nth-child(odd){
+    background-color: coral;
+}
+.lista li:nth-child(even){
+    background-color: lightblue;
+}
+.lista li:hover{
+    font-weight: bold;
+}
